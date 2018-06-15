@@ -150,7 +150,11 @@ Pod::Spec.new do |s|
                       'include/grpcpp/impl/codegen/string_ref.h',
                       'include/grpcpp/impl/codegen/stub_options.h',
                       'include/grpcpp/impl/codegen/sync_stream.h',
-                      'include/grpcpp/impl/codegen/time.h'
+                      'include/grpcpp/impl/codegen/time.h',
+                      'include/grpcpp/impl/codegen/proto_buffer_reader.h',
+                      'include/grpcpp/impl/codegen/proto_buffer_writer.h',
+                      'include/grpcpp/impl/codegen/proto_utils.h',
+                      'include/grpcpp/impl/codegen/config_protobuf.h'
   end
 
   s.subspec 'Implementation' do |ss|
